@@ -191,14 +191,15 @@ hr {
     outline: none;
 }
 
-/*Cards Musculação---------------------------------------------------------*/
+/*Página de Academia---------------------------------------------------------*/
+/*Cards Esportivos*/
 .titulos_esportivos {
     max-width: 1100px;
     margin: 0 auto;
     text-align: left;
 }
 
-/*Cards Musculação, Cross-Fit, Pilates, ---------------------------------------------------------*/
+/*Cards Musculação, Cross-Fit, Pilates, Yoga, Dança, Escalada ---------------------------------------------------------*/
 .card_musculacao, .card_danca {
     background-color: #606c38;
 }
@@ -235,4 +236,48 @@ hr {
 .card_musculacao h3, .card_musculacao p, .card_pilates h3, .card_pilates p, .card_crossfit h3, .card_crossfit p, .card_yoga h3, .card_yoga p, 
 .card_danca h3, .card_danca p, .card_escalada h3, .card_escalada p{
     margin: 4px 0;
+}
+
+/*Página de Saúde & Bem-Estar---------------------------------------------------------*/
+.alimentacao, .motivacao {
+    background-color: #bc6c25;
+}
+.agua {
+    background-color: #283618;
+}
+.sono {
+    background-color: #606c38;
+}
+.mental {
+    background-color: #dda15e;
+}
+.texto_alimentacao, .texto_sono, .texto_motivacao {
+    text-align: left;
+    flex: 1;
+}
+.texto_agua, .texto_mental {
+    text-align: right;
+    flex: 1;
+}
+.saude {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+.alimentacao , .agua, .sono, .mental, .motivacao {
+    display: flex;
+    align-items: center;  
+    gap: 40px;
+    width: 1100px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #eeede9;
+}
+.alimentacao img, .agua img, .sono img, .mental img, .motivacao img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    object-fit: cover;
+    padding: 20px;
 }
