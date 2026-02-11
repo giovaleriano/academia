@@ -190,3 +190,49 @@ hr {
 .redes_sociais {
     outline: none;
 }
+
+/*Cards Musculação---------------------------------------------------------*/
+.titulos_esportivos {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/*Cards Musculação, Cross-Fit, Pilates, ---------------------------------------------------------*/
+.card_musculacao, .card_danca {
+    background-color: #606c38;
+}
+.card_crossfit, .card_escalada {
+    background-color: #bc6c25;
+}
+.card_pilates {
+    background-color: #283618;
+}
+.card_yoga {
+    background-color: #dda15e;
+}
+.musculacao, .pilates, .crossfit, .yoga, .danca, .escalada{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+    max-width: 1100px; 
+    margin: 0 auto;
+}
+.card_musculacao, .card_pilates, .card_crossfit, .card_yoga, .card_danca, .card_escalada{
+    width: 220px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #eeede9;
+}
+.card_musculacao img, .card_pilates img, .card_crossfit img, .card_yoga img, .card_danca img, .card_escalada img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card_musculacao h3, .card_musculacao p, .card_pilates h3, .card_pilates p, .card_crossfit h3, .card_crossfit p, .card_yoga h3, .card_yoga p, 
+.card_danca h3, .card_danca p, .card_escalada h3, .card_escalada p{
+    margin: 4px 0;
+}
