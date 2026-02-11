@@ -23,5 +23,83 @@
             <a href="../html/saude.html">Saúde & Bem-Estar</a>
         </div>
     </header>
+
+    <!--Texto h1-->
+    <div class="text">
+        <h1>
+            <span class="cor2">Acesse seu espaço.</span>
+            <span class="cor1">Seus resultados começam aqui.</span>
+        </h1>
+    </div>
+
+    <!--Login-->
+    <form action="#" method="post" class="form-pedido">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <label for="produto">Plano:</label>
+        <select id="produto" name="produto" required>
+            <option value="">Selecione um produto</option>
+            <option value="produto1">Plano Black</option>
+            <option value="produto2">Plano Fit</option>
+            <option value="produto3">Plano Smart</option>
+        </select><br><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" value="1" required><br><br>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea><br><br>
+
+        <div class="botoes">
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Apagar" id="apagar">
+        </div>
+
+    </form>
+
+    <!--Rodapé-->
+    <footer>
+        <div class="logo_footer">
+            <a href="index.html">
+                <img src="../img/logo1.png" alt="Logo" title="Logo Plenni | Academia">
+            </a>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h1>Acompanhe a Plenni. aonde estiver</h1>
+        <div class="redes_sociais">
+            <a href="https://web.whatsapp.com/">
+                <img src="../img/whatsapp.png" alt="whatsapp" title="whatsapp">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="../img/instagram.png" alt="instagram" title="instagram">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="../img/facebook.png" alt="facebook" title="facebook">
+            </a>
+            <a href="https://open.spotify.com/intl-pt/">
+                <img src="../img/spotify.png" alt="spotify" title="spotify">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="../img/youtube.png" alt="youtube" title="youtube">
+            </a>
+        </div>
+        <br><br>
+        <hr>
+        <br>
+        <p>*Consulte as condições promocionais e regulamentos na página: plenni.com.br</p>
+        <p>Minas Gerais, Brazil.</p>
+        <p>faleconosco@plenni.com</p>
+        <p>PLENNI. ACADEMIA | SAÚDE & BEM-ESTAR</p>
+    </footer>
 </body>
 </html>
