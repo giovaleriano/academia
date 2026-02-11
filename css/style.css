@@ -1,0 +1,48 @@
+/*Cabeçalho ---------------------------------------------------------*/
+/*Geral*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #283618;
+    padding: 0 30px;
+    height: 90px;
+}
+/*Logo*/
+header img{
+    height: 40px;
+    width: auto;
+}
+/*Menu*/
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    color: #eeede9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/*Panner de Promoção ---------------------------------------------------------*/
+/*Geral*/
+.panner_promo img{
+    width: 98%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+.panner_local img{
+    width: 98%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px auto;
+}
