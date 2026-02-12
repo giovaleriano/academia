@@ -188,6 +188,9 @@ hr {
     width: auto;
 }
 .redes_sociais {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
     outline: none;
 }
 
