@@ -5,6 +5,14 @@ Ele apresenta um layout responsivo em HTML/CSS para divulgar planos, localizaç�
 
 ---
 
+## 🌐 Demo
+
+Acesse o site online:
+
+🔗 https://giovaleriano.github.io/academia
+
+---
+
 ## ✨ Sobre o Projeto
 
 O objetivo desse site é demonstrar habilidades de:
