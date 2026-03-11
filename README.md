@@ -1,7 +1,7 @@
 # Plenni | Projeto de Site de Academia
 
 Este é um projeto de site para uma **academia fictícia chamada “Plenni”** — criado como parte do meu portfólio.  
-Ele apresenta um layout responsivo em HTML/CSS para divulgar planos, localização e chamadas promocionais de forma moderna e profissional.
+Ele apresenta um layout em HTML/CSS para divulgar planos, localização e chamadas promocionais de forma moderna e profissional.
 
 ---
 
