@@ -9,7 +9,7 @@ Ele apresenta um layout em HTML/CSS para divulgar planos, localização e chamad
 
 Acesse o site online:
 
-🔗 https://giovaleriano.github.io/academia
+🔗 https://giovaleriano.github.io/academia-layout
 
 ---
 
